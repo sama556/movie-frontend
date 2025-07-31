@@ -1,6 +1,5 @@
 import { type Media, type MediaResponse } from '../types/media.js';
 
-// Remove /media from the base URL since it's already in your backend route
 const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:3001/api';
 
 export const fetchMedia = async (page: number, limit: number = 10): Promise<MediaResponse> => {
