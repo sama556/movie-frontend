@@ -1,4 +1,4 @@
-import MediaTable from './components/MediaTable.jsx'; // Removed .jsx extension
+import MediaTable from './components/MediaTable'; 
 
 function App() {
   return <MediaTable />;
